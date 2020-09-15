@@ -1,10 +1,9 @@
+server:
+  port: 8081
 spring:
   application:
-    name: Eureka-Server
+    name: User-Service
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka
-server:
-  port: 8761
-test: tjetc
