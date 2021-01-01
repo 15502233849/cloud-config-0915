@@ -16,4 +16,4 @@ mybatis:
 logging:
   level:
     com.tjetc.mapper: debug
-test: milktjetc222
+test: milktjetc333
