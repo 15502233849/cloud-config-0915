@@ -3,3 +3,4 @@ spring:
     name: UserService
 server:
   port: 8081
+test: tjetctest
