@@ -1,6 +1,19 @@
 spring:
   application:
     name: UserService
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///aa?serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
 server:
   port: 8081
-test: tjetctest
+mybatis:
+  type-aliases-package: com.tjetc.domain
+logging:
+  level:
+    com.tjetc.mapper: debug
